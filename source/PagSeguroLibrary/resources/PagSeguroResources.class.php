@@ -40,6 +40,7 @@ class PagSeguroResources
     /**
      * @throws Exception
      */
+
     private function __construct($data=null)
     {
         define('ALLOW_PAGSEGURO_RESOURCES', true);
@@ -61,6 +62,7 @@ class PagSeguroResources
     /**
      * @return PagSeguroResources
      */
+
     public static function init($data=null)
     {
         if (self::$resources == null) {

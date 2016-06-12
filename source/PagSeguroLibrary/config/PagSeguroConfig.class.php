@@ -32,6 +32,7 @@ class PagSeguroConfig
     private static $config;
     private static $data;
 
+
     private function __construct($data)
     {
         define('ALLOW_PAGSEGURO_CONFIG', true);
